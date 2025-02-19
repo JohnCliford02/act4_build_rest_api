@@ -29,7 +29,10 @@ export const findAll = async (): Promise<UnitUser[]> => Object.values(users);
 export const findOne = async (id: string): Promise<UnitUser> => users[id];
 
 export const create = async (userData: UnitUser): Promise<UnitUser | null> => {
+<<<<<<< HEAD
    
+=======
+>>>>>>> a6a8bf08c66ee157d83f9a0cd93a5363eeb68ab7
     let id = random()
 
     let check_user = await findOne(id);
@@ -70,7 +73,12 @@ export const findByEmail = async (user_email: string): Promise<null | UnitUser> 
     return getUser;
 };
 
+<<<<<<< HEAD
 export const comparePassword = async (email:string, supplied_password : string): Promise<null | UnitUser> => {
+=======
+
+export const comparePassword = async (email:string, supplied_password): Promise<null | UnitUser> => {
+>>>>>>> a6a8bf08c66ee157d83f9a0cd93a5363eeb68ab7
 
     const user = await findByEmail(email)
 
@@ -119,4 +127,8 @@ export const remove = async (id : string) : Promise<null | void> => {
     delete users[id]
 
     saveUsers()
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> a6a8bf08c66ee157d83f9a0cd93a5363eeb68ab7

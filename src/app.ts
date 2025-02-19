@@ -3,7 +3,10 @@ import * as dotevnv from "dotenv"
 import cors from "cors"
 import helmet from "helmet"
 import { userRouter } from "./users/users.routes"
+<<<<<<< HEAD
 import { productRouter } from "./products/product.routes"
+=======
+>>>>>>> a6a8bf08c66ee157d83f9a0cd93a5363eeb68ab7
 
 dotevnv.config()
 
