@@ -1,0 +1,20 @@
+{
+  "75aa7f33-6746-4533-a0f1-d2e4a376a68d": {
+    "id": "75aa7f33-6746-4533-a0f1-d2e4a376a68d",
+    "username": "stephen1",
+    "email": "stephen@gmail.com",
+    "password": "$2b$10$OjoK1Tz5xa4/CunXhzUkee7VU2Rw5iQqPZxhBeIUvG2QwLdQUzYOG"
+  },
+  "62e38a2f-3abc-4de6-9e55-edadaaddd2f1": {
+    "id": "62e38a2f-3abc-4de6-9e55-edadaaddd2f1",
+    "username": "stephen2",
+    "email": "stephen2@gmail.com",
+    "password": "$2b$10$0GfKhdrIlDi3LCo5A/cvMelDVubQ77m0cQJkg7oNo7kVn6MdtXdru"
+  },
+  "dce13453-d2be-4ee9-8d01-fbfe7b6a13a9": {
+    "id": "dce13453-d2be-4ee9-8d01-fbfe7b6a13a9",
+    "username": "stephen3",
+    "email": "stephen3@gmail.com",
+    "password": "$2b$10$zoRkjSYFZ79It2NgtaFTPu/9cY7LuAbKrbqk0rkJ.72wVo2.mI9ia"
+  }
+}
